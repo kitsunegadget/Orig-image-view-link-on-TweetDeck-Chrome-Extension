@@ -4,7 +4,7 @@ Add original image link in preview window.
 
 Tweetdeck の画像プレビューにオリジナルサイズへのリンクを追加します。
 
-![](ss.png)
+![screenshot](ss.png)
 
 ## Note
 ベージ読み込み時の Tweetdeck 側の読み込み時間を考慮して、5秒後に実行するようにしています。
