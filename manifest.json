@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "Orig Image View on Tweetdeck",
+	"version": "0.1",
+	"description": "Add original image size view button.",
+	"icons": {},
+	"author": "yuzushiro",
+	"content_scripts": [
+		{
+			"matches": ["https://tweetdeck.twitter.com/*"],
+			"js": ["orig_image_view.js"]
+		}
+	]
+}
