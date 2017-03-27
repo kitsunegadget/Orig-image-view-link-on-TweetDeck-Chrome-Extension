@@ -28,7 +28,7 @@ function addElement(){
 
         var element = document.createElement("a");
         element.text = "Original size";
-        element.style = "position: absolute; bottom: 0; line-height: 1.4; "; //!!左詰め50％にあるためセンターにおけてないので、要調整
+        element.style = "position: absolute; bottom: 0; left: 0; right: 0; line-height: 1.4; ";
         element.href = editURL; //ここを画像リンクにする
         element.target = "_blank";
         element.id = "original-size"; //フラグ管理用にidをつける。状態が変わればelementは自動的に消える。
