@@ -1,4 +1,4 @@
-# Orig image view link on TweetDeck: Chrome Extention
+# Orig image view link on TweetDeck: Chrome Extension
 
 Add original image link in preview window.
 
