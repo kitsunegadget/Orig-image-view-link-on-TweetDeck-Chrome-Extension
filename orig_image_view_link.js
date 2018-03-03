@@ -18,9 +18,9 @@ setTimeout(function() {
 }, 5000);
 
 function addElement(){
-    var mediaImg = document.getElementsByClassName("media-img");
-    if (mediaImg[0] != undefined) {
-        var mediaURL = mediaImg[0].src;
+    var mediaImg = document.querySelector(".med-tray .media-img");
+    if (mediaImg != undefined) {
+        var mediaURL = mediaImg.src;
 
         //largeの文字を引いてorigを追加する。もしsmallだった場合も5文字なのでだいじょうぶ。
         editURL = mediaURL.substr(0, mediaURL.length-5)+"orig";
