@@ -1,10 +1,10 @@
 {
 	"manifest_version": 2,
 	"name": "Orig Image View link on Tweetdeck",
-	"version": "0.9",
+	"version": "0.9.1",
 	"description": "Add original image link in preview window.",
 	"icons": {},
-	"author": "yuzushiro",
+	"author": "YuY",
 	"content_scripts": [
 		{
 			"matches": ["https://tweetdeck.twitter.com/*"],
