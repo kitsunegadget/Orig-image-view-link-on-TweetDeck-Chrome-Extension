@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "Orig Image View link on Tweetdeck",
-	"version": "0.9.1",
+	"version": "0.9.2",
 	"description": "Add original image link in preview window.",
 	"icons": {},
 	"author": "YuY",
